@@ -1,0 +1,211 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-lg p-5  bg-dark">
+        <div class="container ">
+
+            <div class="head d-flex">
+                <div class="img"><img src="./images/logo@2x.png" class="w-75" alt=""></div>
+                <div class="text">
+                    <a class="navbar-brand text-white fw-bold" href="#">Weather</a>
+                    <p class="text-white-50 fw-light">tagline goes here</p>               
+                  </div>
+                </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link notActive text-white" aria-current="page" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link notActive text-white" aria-current="page" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link notActive text-white" aria-current="page" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link notActive text-white" aria-current="page" href="#">Contact</a>
+              </li>
+
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+
+
+
+<div class="background  align-items-center">
+<div  class="container">   
+    <div class="row">
+
+<form action="" class="">
+
+     <input type="text" class="f bg-dark my-5" placeholder="find your location " id="search">
+     <input type="button" class="bt my-5" value="Find">
+</form>
+
+</div>
+
+    <div class="row">
+
+<!-- Day1 -->
+
+        <div class="col-md-4 card1 " style="height: 300px;" id="day1">
+           <div class=" Day1 d-flex  justify-content-between pt-2">
+            <p class="text-white-50 px-2" id="dayName">sunday</p>
+    <span class="text-white-50 px-2">
+        <span id="dayNumber">7</span>
+        <span id="mounthName">june</span>
+    </span>
+    
+        </div>
+<div class="dayInfo">
+
+    <p class="location text-white fw-bold px-2" id="cityName"> Cairo</p>
+<div class="tempreture  px-2">
+
+    <span class="fs-1 fw-bolder">
+        <span id="tempNumber">20</span>
+        <span><sup>o</sup>C</span>
+    </span>
+</div>
+<p class="px-2 pt-4 text-info" id="weatherCondition"> Sunny</p>
+
+</div>
+<div class="wind d-flex gap-5 pt-5">
+<div class="windRatio d-flex ">
+    <p id="windRatio">20%</p>
+</div>
+<div class="windSpeed d-flex ">
+    <p id="windSpeed">20km/h</p>
+</div>
+<div class="windDirection d-flex">
+    <p id="windDirection">East</p>
+</div>
+</div>
+</div>
+
+        <!-- end  day1 -->
+<!-- Day2 -->
+
+
+<div class="col-md-4 card2 " style="height: 300px;" id="day2">
+    <div class=" Day2   pt-2">
+     <p class="text-white-50 px-2 text-center NextDay">monday</p>
+ </div>
+<div class="dayInfo text-center">
+
+<div class="bigtempreture pt-5 px-2">
+
+<span class="fs-1 fw-bolder">
+ <span class="bigTemp">30</span>
+ <span><sup>o</sup>C</span>
+</span>
+</div>
+<div class="smalltempreture pt-2 px-2">
+
+<span class="fs-4 fw-light">
+    <span class="smallTemp">30</span>
+    <span><sup>o</sup>C</span>
+   </span>
+   </div>
+
+   <p class="text-info pt-4 weatherCondition2"  >Patchy rain possible
+</p>
+</div>
+</div>
+
+
+<!-- End Day2 -->
+
+
+
+<!-- Day3 -->
+
+
+
+<div class="col-md-4 card3 " style="height: 300px;" id="day3">
+    <div class=" Day2   pt-2">
+     <p class="text-white-50 px-2 text-center NextDay">tuesday</p>
+ </div>
+<div class="dayInfo text-center">
+
+<div class="bigtempreture pt-5 px-2">
+
+<span class="fs-1 fw-bolder">
+ <span class="bigTemp">27</span>
+ <span><sup>o</sup>C</span>
+</span>
+</div>
+<div class="smalltempreture pt-2 px-2">
+
+<span class="fs-4 fw-light">
+    <span class="smallTemp">13</span>
+    <span><sup>o</sup>C</span>
+   </span>
+   </div>
+
+   <p class="text-info pt-4 weatherCondition2">Patchy rain possible
+</p>
+</div>
+</div>
+<!-- End day3 -->
+
+    </div>
+
+</div>
+   <footer>
+
+  <div class="container">
+    <div class="row">
+
+<div class="col-md-8 mt-5">
+<form action="" >
+
+
+    <input type="text" class="f bg-dark" placeholder="Enter your email to Subscribe">
+    <input type="button" class="bt2" value="Subscribe">
+
+</form>  
+<p class="text-white-50 py-4" >Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>      
+</div>
+        <div class="col-md-3 offset-1">
+
+<div class="social-links d-flex mt-5">
+    <div class="socials   ms-0  m-auto rounded-circle d-flex justify-content-center align-items-center border border-dark border-2 bg-dark">
+        <i class="fa-brands fa-facebook  fs-5   p-2"></i> 
+       </div>
+    <div class="socials   ms-1  m-auto rounded-circle d-flex justify-content-center align-items-center border border-dark border-2 bg-dark"><i class="fa-brands fa-twitter  fs-5  p-2"></i>    </div>
+    <div class="socials   ms-1  m-auto rounded-circle d-flex justify-content-center align-items-center border border-dark border-2 bg-dark"><i class="fa-brands fa-google  fs-5  p-2"></i>    </div>
+    <div class="socials   ms-1  m-auto rounded-circle d-flex justify-content-center align-items-center border border-dark border-2 bg-dark"><i class="fa-brands fa-pinterest  fs-5  p-2"></i>    </div>
+
+</div>
+</div>
+
+    </div>
+  </div>
+</footer>
+
+  <script src="js/main.js"></script>  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  
+</body>
+
+</html>

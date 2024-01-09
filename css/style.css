@@ -1,0 +1,119 @@
+body{
+    background-color: #262936;
+}
+.active{
+    color: #077EB0 !important;
+    padding: 5px 25px !important;
+    border: 2px solid  #077EB0 !important;
+    border-radius: 25px !important;
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    -ms-border-radius: 25px !important;
+    -o-border-radius: 25px !important;
+}
+.notActive{
+    padding: 5px 25px !important;
+    border: 2px solid transparent !important;
+    border-radius: 25px !important;
+    transition: all 0.3s ease !important;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+    -ms-transition: all 0.3s ease !important;
+    -o-transition: all 0.3s ease !important;
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    -ms-border-radius: 25px !important;
+    -o-border-radius: 25px !important;
+}
+.notActive:hover
+{
+    color: #077EB0 !important;
+    border-color:#077EB0 !important;
+}
+.background{
+    background-image: url("../images/banner\ \(1\).png");
+    min-height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+.f{
+    outline: none;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.bt{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    bottom: 5px;
+    background-color: #009AD8;
+    color: white;
+    padding: 3px 40px;
+    border-radius: 30px;
+    border: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.bt2{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 2px 20px;
+    background-color: #009AD8;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+form{
+    position: relative;
+}
+.crads{
+    top: 450px;
+    left: 250px;
+    right: 250px;
+    /* background-color: #1E202B; */
+}
+
+.card1,.card3{
+
+    background-color: #323544 !important;
+    color: white;
+    
+}
+.card2{
+    background-color: #262936;
+    color: white;
+
+}
+footer{
+    background-color: #262936;
+}
+.socials{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.socials:hover i{
+color: white !important;}
+i{
+    color: #009AD8 !important;
+}
+.socials:hover {
+    background-color: #009AD8 !important;
+}
